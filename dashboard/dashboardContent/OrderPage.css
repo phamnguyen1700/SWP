@@ -1,0 +1,73 @@
+.container-2{
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style for the dialog container */
+.dialog-container {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 800px; /* Adjust the max-width as needed */
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto;
+}
+
+/* Style for the dialog title */
+.dialog-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style for the dialog content */
+.dialog-content {
+    margin-bottom: 20px;
+}
+
+/* Style for the table inside the dialog */
+.dialog-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Style for the table cells */
+.dialog-table-cell {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for the total price row */
+.total-price-row {
+    font-weight: bold;
+}
+
+/* Style for the dialog actions */
+.dialog-actions {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Style for the buttons */
+.dialog-button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.dialog-button:hover {
+    background-color: #0056b3;
+}
