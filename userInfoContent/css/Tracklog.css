@@ -1,0 +1,68 @@
+/* src/components/Tracklog.css */
+.root {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #e3f2fd;
+    border-radius: 10px;
+}
+
+.stepper {
+    padding: 20px 0;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.tag-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tag-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.tag-date {
+    font-size: 0.875rem;
+    color: #555;
+}
+
+.tracking-steps {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.step {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 100px;
+    text-align: center;
+}
+
+.completed {
+    background-color: #4caf50;
+    color: white;
+}

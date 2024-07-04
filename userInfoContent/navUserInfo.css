@@ -1,0 +1,32 @@
+.sidebar-userinfo {
+  box-shadow: none;
+}
+
+.sidebar-userinfo ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-userinfo .section-header {
+  font-size: 1.2rem; 
+  cursor: pointer;
+  font-weight: bold;
+  color: #1a237e; 
+  padding: 10px 0;
+}
+
+.sidebar-userinfo a p {
+  font-size: 0.9rem; 
+  margin: 0;
+  padding: 5px 0;
+  color: black; 
+}
+
+.sidebar-userinfo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.sidebar-userinfo a:hover p {
+  color: #1a237e; 
+}
